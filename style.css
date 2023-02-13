@@ -1,0 +1,34 @@
+table{
+    border-spacing: 0;
+    font-family: sans-serif;
+    text-align: center;
+}
+th, td{
+    border: 1px solid #0e0e0f;
+    
+}
+td, th{
+    border-right-width: 0;
+    border-bottom-width: 0; 
+    
+}
+tr th:last-child,
+tr td:last-child{
+    border-right-width: 1px;
+}
+tr:last-child td{
+    border-bottom-width: 1px;
+    font-weight: bolder; 
+    background: #ddeeff;
+    color: #0c0b0b;
+    border-color: #090a0a;
+}
+th{
+    background: #ddeeff;
+}
+td{
+    background: #dfd;
+}
+tr:last-child th{
+    font-weight: normal;
+}
