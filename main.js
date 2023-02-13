@@ -2,6 +2,8 @@ let num1= 50, num2 =32;
 let resultado;
 resultado=num1/num2;
 let myStyle = "background: #117911; color: #fcf6f6; font-family: sans-serif; padding: 5px; border: 1px solid #4e82e2; border-radius: 5px;";
+let tituStyle = "background: #FF0000; color: #fcf8f6; font-family: sans-serif; padding: 10px; border: 10px solid #4e82e2; border-radius: 5px;";
+
 
 console.log(`%c Resultado ${resultado}`, myStyle);
 
@@ -45,3 +47,25 @@ console.log(`%c "Me muestra el numero sin decimales" = ${Math.trunc(resultado)}`
 //5.68545.toFixed(x)
 //Devuelve la cantidad de numeros decimales segun x
   console.log(`%c "Me muestras los primeros 2 numeros decimales" = ${resultado.toFixed(2)}`, myStyle);
+
+
+console.log(`%c "Comparadores"`, tituStyle);
+let edad=35;
+//Comparadores
+
+//Igualdad
+console.log(`%c ${num1} == ${num2} ${num1==num2} `, myStyle);
+//Diferente de
+console.log(`%c ${num1} != ${num2} ${num1!=num2} `, myStyle);
+//Identico
+console.log(`%c ${num1} === ${num2} ${num1===num2} `, myStyle);
+//No identico
+console.log(`%c ${num1} !== ${num2} ${num1!==num2} `, myStyle);
+//Mayor que
+console.log(`%c ${num1} > ${num2} ${num1>num2} `, myStyle);
+//Mayor igual que
+console.log(`%c ${num1} >= ${num2} ${num1>=num2} `, myStyle);
+//Menor que
+console.log(`%c ${num1} < ${num2} ${num1<num2} `, myStyle);
+//Menor igual que
+console.log(`%c ${num1} <= ${num2} ${num1<=num2} `, myStyle);
